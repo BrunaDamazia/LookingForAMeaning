@@ -1,11 +1,12 @@
-import { useState } from 'react'
-
+import { Button } from './components/button.jsx'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return;
+  return (
+    <Button />
+ 
+  
+  )
 }
 
 export default App
